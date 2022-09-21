@@ -31,8 +31,8 @@ return(
     <div>
        {user.map(item =>(
         <div key={item.id}>
-            <img src= {item.image} alt="fruits"/>
-            <p>{item.name} {item.category}</p>
+            {/* <img src= {item.image} alt="fruit"/>
+            <p>{item.name} {item.category}</p> */}
             <h4>Details of Fruits</h4>
             <p>Name: {item.name}</p>
             <p>Category: {item.category}</p>
